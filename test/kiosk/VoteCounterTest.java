@@ -2,7 +2,7 @@ package kiosk;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+
 
 import data.Party;
 import org.junit.jupiter.api.Test;
@@ -14,7 +14,7 @@ import java.util.Set;
 public class VoteCounterTest {
 
     @Test
-    public void Test1(){
+    public void Test(){
 
         Party partyB = new Party("");
         Party PP = new Party("PP");

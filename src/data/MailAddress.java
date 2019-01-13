@@ -4,7 +4,7 @@ package data;
  * Adreça de correu electrònic que facilita el votant.
  */
 
-final class MailAddress {
+public final class MailAddress {
 
     private final String address;
 
