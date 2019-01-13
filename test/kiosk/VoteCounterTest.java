@@ -2,11 +2,8 @@ package kiosk;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-
 import data.Party;
 import org.junit.jupiter.api.Test;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -49,7 +46,6 @@ public class VoteCounterTest {
         vc.scrutinize(null);
         assertEquals(vc.getNulls(), 1);
     }
-
 
 }
 

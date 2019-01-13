@@ -8,6 +8,6 @@ public class SCorreo implements MailerService {
     @Override
     public void send(MailAddress address, DigitalSignature signature) {
 
-        String respuesta = ("Mensaje enviado");
+        System.out.print ("Mensaje enviado");
     }
 }
